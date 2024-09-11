@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+}
+h2 {
+  font-family: "Play", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #151515;
+}
+h4 {
+  font-size: 20px;
+  font-family: "Play", sans-serif;
+  font-weight: bold;
+}
+/* HEADER SECTION CODE START */
+header {
+  background: #1a1a1a;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.min-title {
+  background: #f6f6f6;
+  display: inline-block;
+  padding: 2px 15px;
+  border-radius: 15px;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+/* CONTACT SECTION */
+.nav-section .contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: start !important;
+  gap: 25px;
+  flex-basis: 50%;
+}
+.nav-section .he-location {
+  display: flex;
+  gap: 10px;
+}
+.nav-section .he-contact {
+  display: flex;
+  gap: 8px;
+}
+.nav-section .he-location .content {
+  color: white;
+  font-size: 14px;
+}
+.nav-section .he-location .icon {
+  color: #71ca00;
+  font-size: 14px;
+}
+.nav-section .he-contact .content {
+  color: white;
+  font-size: 14px;
+}
+.nav-section .he-contact .icon {
+  color: #71ca00;
+  font-size: 14px;
+}
+/* CONTACT SECTION */
+.nav-section .underline {
+  height: 1px;
+  background: #333;
+  width: 100%;
+}
+/* SOCIAL MEDIA ICONS */
+.nav-section .social-media {
+  display: flex;
+  justify-content: flex-end;
+  flex-basis: 50%;
+}
+.nav-section .social-media ul {
+  display: flex;
+  gap: 15px;
+  margin: 5px 0px;
+  padding-right: 10px;
+}
+.nav-section .social-media ul li {
+  list-style: none;
+  font-size: 20px;
+}
+.nav-section .social-media ul li a {
+  color: #71ca00;
+  list-style: none;
+}
+/* SOCIAL MEDIA ICONS */
+/* NAVBAR CODE */
+.nav-section .navbar {
+  padding-bottom: 15px;
+}
+.nav-section .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  margin: 0px 15px;
+}
+.nav-section .navbar-nav {
+  margin: 0 auto;
+}
+.nav-section .navbar .head-btn .btn-primary {
+  background: transparent;
+  border: 1px solid white;
+  padding: 10px 25px;
+  font-size: 15px;
+  border-radius: 30px;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+}
+/* NAVBAR CODE */
+/* HEADER SECTION CODE END */
+/* BANNER SECTION CODE START */
+.banner-section {
+  background: url(../img/banner.webp) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+  position: sticky;
+}
+.banner-section .banner-inner {
+  margin-top: 150px;
+}
+.banner-section .banner-inner p {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  line-height: 31px;
+}
+.banner-section .banner-inner p .fa-certificate {
+  color: #71ca00;
+  margin-right: 8px;
+}
+.banner-section .banner-inner h1 {
+  color: white;
+  font-size: 70px;
+  margin-bottom: 20px;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  letter-spacing: -2.5px;
+  line-height: 64px;
+}
+.banner-section .banner-content2 p {
+  width: 56%;
+  margin-bottom: 30px;
+}
+.banner-section .banner-content2 .banner-btn .btn {
+  background: #71ca00;
+  border: 1px solid #71ca00;
+  color: white;
+  font-family: "Play", sans-serif;
+  font-size: 15px;
+
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+/* BANNER SECTION CODE END */
+/* FEATURE SECTION START */
+/* FEATURE TITLE */
+.feature-section {
+  width: 100%;
+  padding: 100px 0px;
+  background: url(../img/gradient-2.webp) center center no-repeat;
+}
+
+.feature-section .feature-title h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+/* FEATURE TITLE */
+/* FEATURE CONTENT */
+.feature-section .cus-padding {
+  padding-top: 45px;
+}
+.feature-section .feature-icon {
+  margin-top: 3px;
+}
+.feature-section .feature-icon i {
+  font-size: 45px;
+  padding: 8px 20px;
+  background: #71ca00;
+  border-radius: 10px;
+  margin-right: 25px;
+  color: white;
+}
+.feature-section .feature-content {
+  margin-right: 25px;
+}
+.feature-section .feature-content h4 {
+  margin-bottom: 10px;
+}
+.feature-section .feature-content p {
+  width: 100%;
+  color: #707070;
+}
+.feature-section .feture-inner {
+  padding-bottom: 24px;
+}
+.feature-section .feature-img img {
+  width: 100%;
+}
+
+.feature-section .feature-icon .feature-cus-bg {
+  background: #171717 !important;
+}
+.feature-section .feture-inner .feature-end i {
+  padding: 10px;
+}
+/* FEATURE SECTION START */
+
+/* MARQUE SEcTION START */
+.marque-section {
+  width: 100%;
+  padding: 0 0;
+}
+/* Container for the marquee */
+.marquee-container {
+  width: 100%; /* Set the width of the container */
+  height: 100px; /* Set the height of the container */
+  overflow: hidden; /* Hide the overflowing content */
+  white-space: nowrap;
+  position: relative;
+  background: url("../img/gradient-3.webp") center center no-repeat; /* Replace with your background image */
+  background-size: cover; /* Adjust to cover the full container */
+  display: flex; /* Use flexbox for vertical centering */
+  align-items: center; /* Vertically center the content */
+}
+
+/* The content that will scroll */
+.marquee-content {
+  display: inline-block;
+  position: absolute;
+  animation: scrollLeftToRight 30s linear infinite;
+}
+
+/* Keyframes for the scrolling effect */
+@keyframes scrollLeftToRight {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Style for each line */
+.marquee-line {
+  display: inline-block;
+
+  margin: 0 70px; /* Space between lines */
+  color: white;
+  font-family: "Play", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.marquee-content i {
+  color: #71ca00;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* MARQUE SEcTION END */
+/* ABOUT US SECTION START */
+.about-section {
+  /* background: #171717; */
+  width: 100%;
+}
+.about-section .about-img {
+  background: url(../img/about.webp) center center no-repeat;
+  background-size: cover;
+  padding: 226px 0px;
+}
+.about-section .about-title h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.about-section .cus-padding {
+  padding: 50px 70px;
+  background: url(../img/gradient-3.webp);
+}
+
+.about-section .about-content {
+  display: flex;
+  gap: 50px;
+}
+.about-content .about-content-left .list-items {
+  gap: 20px;
+}
+
+.about-content .about-content-left ul li {
+  list-style: none;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 20px;
+}
+.about-content .about-content-left ul .num {
+  padding: 13px 22px;
+  background: #71ca00;
+  border-radius: 50%;
+  color: white;
+}
+.about-content .about-content-left ul .txt {
+  color: white;
+}
+.about-content .about-content-right .list-items {
+  gap: 20px;
+}
+
+.about-content .about-content-right ul li {
+  list-style: none;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 20px;
+}
+.about-content .about-content-right ul .num {
+  padding: 13px 22px;
+  background: #171717;
+  border-radius: 50%;
+  color: white;
+}
+.about-content .about-content-right ul .txt {
+  color: white;
+}
+/* ABOUT US SECTION END */
+/* SERVICE SECTION START */
+.service-section {
+  width: 100%;
+  padding: 100px 0px;
+  background: url(../img/gradient-2.webp) center center no-repeat;
+}
+.service-section .service-block {
+  background: #171717;
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+  padding-left: 25px;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.service-section .service-title h2 {
+  margin-bottom: 30px;
+}
+.service-section .service-block i {
+  color: #71ca00;
+  font-size: 50px;
+}
+.service-section .service-block svg {
+  color: #71ca00;
+  font-size: 60px;
+}
+.service-section .service-block h4 {
+  color: white;
+  display: inline-block;
+}
+/* SERVICE SECTION END */
+/* CALL TO ACTION CODE START */
+.calltoaction-section {
+  width: 100%;
+  padding: 40px 0px;
+  background: #1a1a1a;
+}
+.calltoaction-section .calltoaction-inner {
+  background: url(../img/gradient-1.webp) center center no-repeat;
+  background-size: cover;
+  padding: 70px 0px;
+  border-radius: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+.calltoaction-section .calltoaction-inner h2 {
+  font-size: 56px;
+  margin-bottom: 30px;
+}
+.calltoaction-section .calltoaction-inner p {
+  width: 38%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.calltoaction-section .calltoaction-btn .btn {
+  background: #71ca00;
+  border: 1px solid #71ca00;
+  color: white;
+  font-family: "Play", sans-serif;
+  font-size: 15px;
+
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+/* CALL TO ACTION CODE END */
