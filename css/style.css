@@ -31,6 +31,9 @@ ul {
   padding: 0;
   margin: 0;
 }
+i {
+  font-family: "FontAwesome";
+}
 .min-title {
   background: #f6f6f6;
   display: inline-block;
@@ -190,11 +193,11 @@ ul {
 .feature-section .feature-icon {
   margin-top: 3px;
 }
-.feature-section .feature-icon i {
-  font-size: 45px;
-  padding: 8px 20px;
+.feature-section .feature-icon svg {
+  font-size: 70px;
   background: #71ca00;
   border-radius: 10px;
+  padding: 5px;
   margin-right: 25px;
   color: white;
 }
@@ -245,7 +248,7 @@ ul {
 .marquee-content {
   display: inline-block;
   position: absolute;
-  animation: scrollLeftToRight 30s linear infinite;
+  animation: scrollLeftToRight 50s linear infinite;
 }
 
 /* Keyframes for the scrolling effect */
@@ -376,6 +379,9 @@ ul {
   padding: 40px 0px;
   background: #1a1a1a;
 }
+.testimonial-section .testimonial-title h2 {
+  margin-bottom: 30px;
+}
 .calltoaction-section .calltoaction-inner {
   background: url(../img/gradient-1.webp) center center no-repeat;
   background-size: cover;
@@ -405,3 +411,119 @@ ul {
   border-radius: 30px;
 }
 /* CALL TO ACTION CODE END */
+/* TESTIMONIAL SECTION CODE START */
+.testimonial-section {
+  width: 100%;
+  padding: 100px 0px;
+  background: #dadcde;
+}
+.testimonial-section .owl-carousel {
+  overflow: hidden;
+  padding: 0 20px;
+  margin: 0 -40px;
+  padding-right: 40px;
+}
+.owl-carousel .owl-stage-outer {
+  padding: 30px 50px;
+  margin-left: -35px;
+  width: calc(100% + 100px);
+}
+.testimonial-section .testimonial-content .single-testimonial {
+  border: 7px solid #71ca00;
+  text-align: center;
+  border-radius: 45px;
+  position: relative;
+  z-index: 2;
+}
+.testimonial-content .single-testimonial p {
+  color: #151515;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 50px;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 3;
+}
+.testimonial-content .single-testimonial .clint-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding-bottom: 35px;
+}
+.single-testimonial .clint-info .cliint-dettails h6 {
+  color: #151515;
+  font-size: 18px;
+  font-weight: 700;
+}
+.single-testimonial .clint-info .cliint-dettails span {
+  display: inline-block;
+  color: #151515;
+  font-size: 13px;
+}
+.single-testimonial .clint-info .clint-pic {
+  padding: 15px;
+}
+.single-testimonial .clint-info .clint-pic img {
+  width: 100%;
+  border-radius: 50px;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 50px;
+}
+.owl-dots button {
+  background: #71ca00 !important;
+  width: 15px;
+  height: 15px;
+  border-radius: 26px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+.owl-dots button .active {
+  width: 30px;
+}
+.single-testimonial::before {
+  content: "\f10d";
+  position: absolute;
+  font-family: "FontAwesome";
+  left: -35px;
+  top: -35px;
+  color: #71ca00;
+  font-size: 65px;
+  background: #dadcde;
+  width: 126px;
+  height: 100px;
+}
+.single-testimonial::after {
+  content: "\f10e";
+  position: absolute;
+  font-family: "FontAwesome";
+  right: -35px;
+  bottom: -35px;
+  color: #71ca00;
+  font-size: 65px;
+  background: #dadcde;
+  width: 126px;
+  height: 100px;
+}
+
+/* TESTIMONIAL SECTION CODE END */
+/* LOGO SECTION START */
+.marquee-container2 {
+  width: 100%; /* Set the width of the container */
+  height: 100px; /* Set the height of the container */
+  overflow: hidden; /* Hide the overflowing content */
+  white-space: nowrap;
+  position: relative;
+  background: #dadcde; /* Replace with your background image */
+  /* Adjust to cover the full container */
+  display: flex; /* Use flexbox for vertical centering */
+  align-items: center; /* Vertically center the content */
+}
+.marquee-container2 .marquee-content {
+  display: inline-block;
+  position: absolute;
+  animation: scrollLeftToRight 30s linear infinite;
+}
+/* LOGO SECTION End */
